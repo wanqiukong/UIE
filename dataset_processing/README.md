@@ -75,9 +75,9 @@ tar zxvf data/mrc_ner/ace2005.tar.gz -C data/mrc_ner
 #### NYT
 ``` bash
 mkdir data/NYT-multi
-wget -P data/NYT-multi https://raw.githubusercontent.com/yubowen-ph/JointER/master/dataset/NYT-multi/data/train.json
-wget -P data/NYT-multi https://raw.githubusercontent.com/yubowen-ph/JointER/master/dataset/NYT-multi/data/dev.json
-wget -P data/NYT-multi https://raw.githubusercontent.com/yubowen-ph/JointER/master/dataset/NYT-multi/data/test.json
+wget -P data/NYT-multi https://github.com/yubowen-ph/JointER/blob/master/dataset/NYT-multi/data/train.json
+wget -P data/NYT-multi https://github.com/yubowen-ph/JointER/blob/master/dataset/NYT-multi/data/dev.json
+wget -P data/NYT-multi https://github.com/yubowen-ph/JointER/blob/master/dataset/NYT-multi/data/test.json
 ```
 
 #### CoNLL04/ACE05-rel
